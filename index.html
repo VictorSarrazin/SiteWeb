@@ -2,15 +2,63 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Les Trois Mousquetaires</title>
+    <title>Bienvenue Sur </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: #fff;
+            overflow: hidden;
+        }
+        .shape {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.7;
+        }
+        .shape1 {
+            width: 220px;
+            height: 220px;
+            background: #a259c6;
+            top: 40px;
+            left: 60px;
+            box-shadow: 0 8px 32px #a259c6aa;
+        }
+        .shape2 {
+            width: 160px;
+            height: 160px;
+            background: #6d3e9c;
+            top: 320px;
+            right: 80px;
+            box-shadow: 0 8px 32px #6d3e9c88;
+        }
+        .shape3 {
+            width: 120px;
+            height: 120px;
+            background: #c59cff;
+            bottom: 60px;
+            left: 180px;
+            box-shadow: 0 8px 32px #c59cff88;
+        }
+        .shape4 {
+            width: 80px;
+            height: 80px;
+            background: #e0b3ff;
+            bottom: 120px;
+            right: 120px;
+            box-shadow: 0 8px 32px #e0b3ff88;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenue sur le site des Trois Mousquetaires</h1>
-    <p>
-        Découvrez l'histoire sur 
-        <a href="https://fr.wikipedia.org/wiki/Les_Trois_Mousquetaires" target="_blank">
-            Wikipédia
-        </a>.
-    </p>
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+    <div class="shape shape4"></div>
+    <div style="position: relative; z-index: 2; text-align: center; margin-top: 80px;">
+        <h1 style="font-family: Arial, 'Montserrat', sans-serif; color: #a259c6; font-size: 2.8em; margin-bottom: 18px;">Accueil</h1>
+        <h2 style="font-family: Arial, 'Montserrat', sans-serif; color: #6d3e9c; font-size: 1.7em; margin-bottom: 12px;">Bienvenue sur le site des Trois Mousquetaires</h2>
+        <p style="font-size: 1.2em; color: #444; margin-bottom: 24px;">Découvrez l'histoire sur <a href="https://fr.wikipedia.org/wiki/Les_Trois_Mousquetaires" target="_blank" style="color: #c59cff; text-decoration: none; font-weight: bold;">Wikipédia</a>.</p>
+    </div>
 </body>
 </html>
