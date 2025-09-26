@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mia Azmi - Créatrice</title>
+    <style>
+		body {
+			margin: 60px;
+			padding: 0;
+			min-height: 100vh;
+			font-family: 'Montserrat', Arial, sans-serif;
+			background: #fff;
+			color: #111;
+		}
+		.container {
+			max-width: 1000px;
+			margin: 60px auto 120px auto;
+			background: #fff;
+			border-radius: 18px;
+			box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+			padding: 40px 32px;
+		}
+		h1 {
+			font-size: 2.5em;
+			margin-bottom: 18px;
+			color: #111;
+			letter-spacing: 2px;
+			text-align: center;
+		}
+		.projects {
+			display: flex;
+			flex-direction: column;
+			gap: 32px;
+			align-items: center;
+			margin-top: 32px;
+		}
+        /* les boites/bordures noir contenant du texte */
+		.project-card {
+			background: #fff;
+			border-radius: 12px;
+			box-shadow: 0 4px 16px #0002;
+			padding: 24px 18px;
+			width: 800px;
+			text-align: center;
+			border: 2px solid #111;
+		}
+		.project-card h2 {
+			font-size: 1.3em;
+			margin-bottom: 10px;
+			color: #111;
+		}
+		.project-card p {
+			font-size: 1em;
+			color: #222;
+		}
+
+		/* Barre mauve en bas qui ne bouge pas */
+		.footer-bar {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 5vh;
+			min-height: 100px;
+			background: #3d0066;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 10;
+		}
+		.footer-links {
+			display: flex;
+			gap: 48px;
+		}
+		.footer-links a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 1.2em;
+			font-weight: bold;
+			transition: color 0.2s;
+		}
+		.footer-links a:hover {
+			color: #111;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<!-- texte dans les boites -->
+<body>
+	<div class="container">
+		<h1>Mia Azmi</h1>
+		<div class="projects">
+			<div class="project-card">
+				<h2>Qui suis-je?</h2>
+				<p>Je suis une éleve qui aime l'informatique et les jeux-video. J'aime apprendre de nouvelles choses et faire apprendre de nouvelles choses aux autres personnes. 
+			</div>
+			<div class="project-card">
+				<h2>Pourquoi j'ai participé à la création de MeetGame?</h2>
+				<p>Je participe a la creation de cette plateforme parce que j'aime cet univers de jeux-video et de decouverte. De nombreuse personnes aiment plusieurs theme à la fois et souhaite un jeu-video ou il retrouve toute les choses qu'il aime. Nous voulons amener un experience immersif pour le joueur.</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bar">
+		<div class="footer-links">
+			<a href="nous-joindre.html">Nous joindre</a>
+			<a href="club-membre.html">Club membre</a>
+			<a href="createurs.html">Créateurs</a>
+		</div>
+	</div>
+</body>
+</html>
